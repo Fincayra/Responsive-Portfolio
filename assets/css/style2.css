@@ -1,0 +1,254 @@
+.portfolio {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #c5b643;
+    margin-top: 10px;
+}
+
+.box1 {
+    height: 450px;
+}
+
+.con1, .con2, .con3, .con4, .con5, .con6 {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.pic {
+    position: absolute;
+    margin-top: 30px;
+    width: 210px;
+    height: 150px;
+}
+
+.pic2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 210px;
+    height: 150px;
+}
+
+.pic3 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 210px;
+    height: 150px;
+}
+
+.pic4 {
+    position: absolute;
+    margin-top: 216px;
+    width: 210px;
+    height: 150px;
+}
+
+.pic5 {
+    position: absolute;
+    margin-top: 216px;
+    margin-left: 250px;
+    width: 210px;
+    height: 150px;
+}
+
+.pic6 {
+    position: absolute;
+    margin-top: 216px;
+    margin-left: 500px;
+    width: 210px;
+    height: 150px;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6 {
+    position: relative;
+    background-size: cover;
+    width: 190px;
+    background-color: #aec74d;
+    text-align: center;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #fff;
+    padding: 10px;
+}
+
+.b1 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 0px;
+}
+
+.b2 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 250px;
+}
+
+.b3 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 500px;
+}
+
+.b4 {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 0px;
+}
+
+.b5 {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 250px;
+}
+
+.b6 {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 500px;
+}
+
+.footer p {
+    font-size: 11px;
+    margin-top: 30px;
+}
+    
+@media only screen and (max-width: 980px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header {
+        width: 800px;
+        margin-left: -25px;
+    }
+    .name {
+        margin-left: 80px;
+    }
+    .headlinks {
+        margin-right: 70px;
+    }
+    .about {
+        margin-left: 220px;
+    }
+    .container {
+        width: 300px;
+        margin-right: 238px;
+    }
+    .box1 {
+        width: 600px;
+        height: 650px;
+        padding: 40px 40px;
+        margin-bottom: 90px;
+    }
+    .pic {
+        margin-left: 75px;
+    }
+    .pic2 {
+        margin-left: 315px;
+    }
+    .pic3 {
+        margin-top: 209px;
+        margin-left: 75px;
+    }
+    .pic4 {
+        margin-top: 209px;
+        margin-left: 315px;
+    }
+    .pic5 {
+        margin-top: 390px;
+        margin-left: 75px;
+    }
+    .pic6 {
+        margin-top: 390px;
+        margin-left: 315px;
+    }
+    .b1 {
+        margin-left: 75px;
+    }
+    .b2 {
+        margin-left: 315px;
+    }
+    .b3 {
+        margin-top: 301px;
+        margin-left: 75px;
+    }
+    .b4 {
+        margin-top: 301px;
+        margin-left: 315px;
+    }
+    .b5 {
+        margin-top: 482px;
+        margin-left: 75px;
+    }
+    .b6 {
+        margin-top: 482px;
+        margin-left: 315px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #header {
+        width: 670px;
+        height: 84px;
+        margin-left: -25px;
+    }
+    .name {
+        margin-left: 210px;
+    }
+    .headlinks {
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 100%;
+        padding: 10px;
+        background-color: #f6faeb;
+        text-align: center;
+        border-bottom: 2px solid;
+        border-color: #dddddd;
+    }
+    .about {
+        margin-left: 160px;
+    }
+    .box1 {
+        width: 500px;
+        margin-bottom: 90px;
+        margin-top: 70px;
+    }
+    .pic {
+        margin-left: 25px;
+    }
+    .pic2 {
+        margin-left: 265px;
+    }
+    .pic3 {
+        margin-left: 25px;
+    }
+    .pic4 {
+        margin-left: 265px;
+    }
+    .pic5 {
+        margin-left: 25px;
+    }
+    .pic6 {
+        margin-left: 265px;
+    }
+    .b1 {
+        margin-left: 25px;
+    }
+    .b2 {
+        margin-left: 265px;
+    }
+    .b3 {
+        margin-left: 25px;
+    }
+    .b4 {
+        margin-left: 265px;
+    }
+    .b5 {
+        margin-left: 25px;
+    }
+    .b6 {
+        margin-left: 265px;
+    }
+}

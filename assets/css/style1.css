@@ -20,6 +20,7 @@
 @media only screen and (max-width: 980px) {
     .container {
         max-width: 768px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -39,5 +40,41 @@
     .box1 {
         width: 600px;
         margin-bottom: 90px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #header {
+        width: 670px;
+        height: 84px;
+        margin-left: -25px;
+    }
+    .name {
+        margin-left: 210px;
+    }
+    .headlinks {
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 100%;
+        padding: 10px;
+        background-color: #f6faeb;
+        text-align: center;
+        border-bottom: 2px solid;
+        border-color: #dddddd;
+    }
+    .pic {
+        width: 300px;
+        margin-left: 90px;
+    }
+    .about {
+        margin-left: 160px;
+    }
+    .box1 {
+        width: 500px;
+        margin-bottom: 90px;
+        margin-top: 70px;
+    }
+    p {
+      margin-top: 390px;  
     }
 }
